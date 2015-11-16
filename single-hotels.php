@@ -109,9 +109,19 @@ if (!isset($_GET['card']) && !isset($_GET['iframe']) && !isset($_GET['mobi'])) {
   {
     print "<!-- bookingservices  " . get_post_meta($post->ID, 'bookingservices', true) . " -->";
 ?> 
-<div class="chkavail">
-  <input type="Submit" class="submit" name="chkavail" value="Check and Book" onclick="window.location.href='<?php echo get_post_meta($post->ID, 'bookwebadd', true); ?>'" />
-</div>
+
+    <laterooms-datepicker hotel-id="<?php
+    echo get_post_meta($post->ID, 'hotelid', true);
+?>" style="position: absolute;display: block;top: 100px;background: #fff">
+      <a style="text-decoration:none;color:#222" href="tel:+448001804700">
+        <paper-material class="layout middle" style="max-width: 300px;">
+          <div style="margin:40px 40px;text-align:center;padding: 20px">
+            <p>Call for Best Rates us</p>
+            <p>0800 180 4700</p>
+          </div>
+        </paper-material>
+      </a>
+    </laterooms-datepicker>
 
 <?php } ?>
 
