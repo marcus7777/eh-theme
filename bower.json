@@ -1,0 +1,29 @@
+{
+  "name": "Essential-Front-Page",
+  "version": "0.0.0",
+  "homepage": "https://github.com/HackITtoday/Essential-Front-Page",
+  "authors": [
+    "Wo <mywoisme@gmail.com>",
+    "marcus hitchins <marcus7777@gmail.com>"
+  ],
+  "description": "Front Page of Essential Hotels",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "core-elements": "Polymer/core-elements#~0.3.5",
+    "handlebars": "~2.0.0",
+    "angular": "~1.3.0",
+    "angular-snap": "~1.6.0"
+  }
+}

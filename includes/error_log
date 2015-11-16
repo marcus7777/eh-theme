@@ -1,0 +1,2 @@
+[15-Dec-2012 05:44:31] PHP Notice:  Trying to get property of non-object in /data01/woisme2/public_html/essential/essentialworld.travel/wp-content/themes/listings/includes/laterooms.php on line 133
+[15-Dec-2012 05:44:31] PHP Warning:  Invalid argument supplied for foreach() in /data01/woisme2/public_html/essential/essentialworld.travel/wp-content/themes/listings/includes/laterooms.php on line 133

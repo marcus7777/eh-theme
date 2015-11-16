@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>AngularJS + Masonry (with zoom) - jsFiddle demo</title>
+  <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
+  <style type='text/css'>
+    .grid {
+    border: solid 1px #ccc padding: 0px 0px 0 0;
+    margin: auto;
+}
+.grid li {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: solid 0px #ccc;
+    margin: 0;
+    background: #eee;
+}
+.hotels {
+      background:red;
+}
+.destinations {
+      background:green;
+}
+.attractions {
+      background:blue;
+}
+/**** Transitions ****/
+
+.masonry,
+.masonry li { /* apply before masonry add class */
+    position: absolute; /* important to add it before enter animation start */
+    
+    -webkit-transition-duration: .9s;
+    transition-duration: .9s;
+    
+    -webkit-transition-property: all;
+    transition-property: all;
+}
+.masonry .masonry-enter { /* limit animated properties for entering elements */
+    -webkit-transition-property: -webkit-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.masonry-enter,
+.masonry-leave.masonry-leave-active {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+}
+
+.masonry-leave,
+.masonry-enter.masonry-enter-active {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.center-block {
+  margin:auto;
+}
+
+  </style>
+<script type='text/javascript'>//<![CDATA[ 
+window.onload=function(){
+  $('.btn').button();
+angular.module('app', ['infinite-scroll'])
+.directive("masonry", function () {
+    var NGREPEAT_SOURCE_RE = '<!-- ngRepeat: ((.*) in ((.*?)( track by (.*))?)) -->';
+    return {
+        compile: function(element, attrs) {
+            // auto add animation to brick element
+            var animation = attrs.ngAnimate || "'masonry'";
+            var $brick = element.children();
+            $brick.attr("ng-animate", animation);
+            
+            // generate item selector (exclude leaving items)
+            var type = $brick.prop('tagName');
+            var itemSelector = type+":not([class$='-leave-active'])";
+            
+            return function (scope, element, attrs) {
+                var options = angular.extend({
+                    itemSelector: itemSelector
+                }, scope.$eval(attrs.masonry));
+                
+                // try to infer model from ngRepeat
+                if (!options.model) { 
+                    var ngRepeatMatch = element.html().match(NGREPEAT_SOURCE_RE);
+                    if (ngRepeatMatch) {
+                        options.model = ngRepeatMatch[4];
+                    }
+                }
+                
+                // initial animation
+                element.addClass('masonry');
+                
+                // Wait inside directives to render
+                setTimeout(function () {
+                    element.masonry(options);
+                    
+                    element.on("$destroy", function () {
+                        element.masonry('destroy')
+                    });
+                    
+                    if (options.model) {
+                        scope.$apply(function() {
+                            scope.$watchCollection(options.model, function (_new, _old) {
+                                if(_new == _old) return;
+                                
+                                // Wait inside directives to render
+                                setTimeout(function () {
+                                    element.masonry("reload");
+                                });
+                            });
+                        });
+                    }
+                });
+            };
+        }
+    };
+})
+.controller('MainCtrl', function ($scope, $http) {
+
+    if  ($scope.items == undefined) { $scope.items = []}
+    $http.get('/index.json').success(function (thisdata) {
+      $scope.allitems  =  thisdata; 
+      for (i = 0; i <= 400; i++) { 
+        $scope.items.push( $scope.allitems.shift() );
+      }
+    });
+
+      $scope.loadMore = function() {
+        for(var i = 1; i <= 40; i++) {
+          $scope.items.push( $scope.allitems.shift() );
+        }
+      };
+});
+
+angular.bootstrap(document.body, ['app']);
+}//]]>  
+
+</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bower_components/bootstrap/js/button.js"></script>
+<script src="/bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js"></script>
+
+</head>
+<body>
+<div ng-controller="MainCtrl" class="row">
+
+  <div class=""> 
+    <div class="btn-group btn-group-lg" data-toggle="buttons">
+      <label class="btn btn-primary " ng-click="typeFilter = 'attractions'">
+        <input type="radio" name="options" id="option1" >Attractions</label>
+      <label class="btn btn-primary" ng-click="typeFilter = 'destinations'">
+        <input type="radio" name="options" id="option2">Destinations</label>
+      <label class="btn btn-primary" ng-click="typeFilter = 'hotels'">
+        <input type="radio" name="options" id="option3">Hotels</label>
+    </div>
+  </div>
+  <div class=""> 
+  <ul class="grid" masonry="true" infinite-scroll='loadMore(items,allitems)' infinite-scroll-distance='2' >
+    <li ng-repeat="item in items | filter: { type: typeFilter }" class='{{item.type}}' >
+    <span><a href="{{iten.url}}" >{{item.value}}</a></span>
+        </li> 
+    </ul>
+</div>
+</div>
+  
+</body>
+
+
+</html>
+
+
+

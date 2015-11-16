@@ -1,0 +1,288 @@
+/*
+body #main {
+    background: url(//essentialhotels.co.uk/wp-content/uploads/2014/08/Lowry-Hotel-Different-1200-x-Use.jpg) 50%;
+    text-align: center;
+}
+*/
+
+
+body {
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.nav-pills li a {
+  margin:5px;
+}
+.typeahead,
+.tt-query,
+.tt-hint {
+    width: 420px;
+    height: 50px;
+    padding: 8px 12px;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.typeahead.smaller {
+    width: 200px;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+
+.typeahead {
+    background-color: #fff;
+}
+.typeahead:focus {
+    border: 2px solid #0097cf;
+}
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-dropdown-menu {
+    font-size:1.5em;
+    width: 422px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff !important;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);	
+}
+
+/*Icons next to categories
+.hotels {
+  line-height: 16px;
+  background: url(https://essentialhotels.co.uk/wp-content/themes/listings-child/images/icons/bed-icon.jpg) no-repeat;
+  background-clip: padding-box;
+}
+.destinations {
+  line-height: 16px;
+  background: url(https://essentialhotels.co.uk/wp-content/themes/listings-child/images/icons/destination-pin-16x16.jpg) no-repeat;
+  background-clip: padding-box;
+}
+.attractions {
+  line-height: 16px;
+  background: url(https://essentialhotels.co.uk/wp-content/themes/listings-child/images/icons/attraction-icon.jpg) no-repeat;
+  background-clip: padding-box;
+}
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+*/
+
+.tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.col-centered {
+    margin-top: 30px;
+    text-align: center;
+}
+.col-centered ul.nav-pills {
+    float: none;
+    display: inline-block;
+}:
+.col-centered ul.nav-pills li {
+    float: none;
+    display: inline-block;
+    margin: auto;}
+.grid ul li a{
+  overflow:hidden;
+    min-width:300px;
+    min-height:300px;
+}
+.grid img {
+    min-width:100%;
+    min-height:100%;
+}
+.grid img.tall {
+    max-width: 100%;
+}
+.grid img.wide {
+    max-height: 100%;
+}
+.grid h3.title {
+  margin: -65% 10px 55%;
+  color: #FFF;
+  font-weight: 900;
+  text-shadow: 0px 0px 3px #000;
+  height: 4em;
+}
+.ng-pageslide {
+    background: #3cc;
+    width: 250px;
+    opacity: 0.9;
+}
+
+#menu-button {
+    margin: 20px;
+}
+.btn-warning {
+    margin-top: 5px;
+}
+
+.jumbotron {
+    background-image: url('https://essentialhotels.co.uk/wp-content/uploads/2014/08/Lowry-Hotel-Uncut-Version-2.jpg');
+    text-align: center;
+    padding-top: 100px;
+    height: 500px;
+    background-position: 60% 0%;
+    background-size: cover;
+}
+#TitleOverSearch {
+    font-size:20px;
+    font-weight: 300;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#TextUnderSearch {
+    font-size:28px;
+    color: #3cc;
+    font-weight: 300;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 10px;
+}
+
+#telsmaller {
+    font-size: 24px;
+    margin: 8px 0px 0px 70px;
+}
+
+#titleLogoSmaller {
+    padding:0px;
+    margin: 0px 30px 0px 0px;
+}
+#WhiteBox {
+    background: #FFF;
+    opacity: .9;
+    text-align: center;
+    min-height: 300px;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.nav-justified {
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+#TextUnUnSearch {
+    font-size: 20px;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+#menu-list a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#menu-list ul {
+    margin-top: 35px;
+    text-align: right;
+    list-height: 1.6;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+    cursor: hand;
+}
+.navbar-nav {
+    width: 100%;
+}
+.navbar-nav li {
+    padding: 0px;
+}
+.navbar.slideup {
+    top: -93px;
+    transition: all 3s ease;
+}
+.navbar.slidedown {
+    top:0px;
+    transition: all 1.5s ease;
+}
+.row.slidedown {
+    padding-top: 70px;
+    transition: all 1s ease;
+}
+.nav li a {
+  font-size:18px
+;
+  color: #3cc;
+}
+.nav-justified {
+  padding-bottom: 35px;
+}
+.results {
+}
+.full-height {
+
+}
+#themap {
+  height:100%;
+  width:100%;
+}
+.map {
+  width:100%;
+  height:100%;  
+}
+div.map.affix {
+  width:41.1%;
+  height:100%;
+}
+body .nav-pills > li.active > a,
+body .nav-pills > li.active > a:hover,
+body .nav-pills > li.active > a:focus {
+  color: #FFF;
+  background-color: #3cc;
+}
+.coloured a {
+  color:#3cc
+}
+.coloured {
+  color:#3cc
+}
+
+.doubleclick {
+  font-size: 20px;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  margin-top: 50px;
+  background-color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+}

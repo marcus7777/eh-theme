@@ -1,0 +1,2963 @@
+/* Marcus added */
+body.home #main {
+  background: url(/wp-content/uploads/2014/08/Lowry-Hotel-Different-1200-x-Use.jpg) 50%;
+}
+
+.row .by-facility .slidedown {
+  margin-top:10px;
+}
+
+
+body .white-box {
+  background: #FFFFFF;
+  opacity: .9;
+  text-align: center;
+  min-height: 187px;
+  padding: 17px 70px;
+  max-width: 427px;
+  margin: 75px auto;
+}
+
+.typeahead,
+.tt-query,
+.tt-hint {
+  width: 396px;
+  height: 30px;
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.typeahead {
+  background-color: #fff;
+}
+
+.typeahead:focus {
+  border: 2px solid #0097cf;
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+  color: #999
+}
+
+.tt-dropdown-menu {
+  font-size:1.5em;
+  width: 422px;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff !important;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+.gist {
+  font-size: 14px;
+}
+
+/* example specific styles */
+/* ----------------------- */
+
+.essential .empty-message {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+div.acn-wrap .ui-accordion-content {
+  height: auto !important;
+}
+.right { float:right; }
+#SearchFormHome .league-name {
+  margin: 0 20px 5px 20px;
+  padding: 3px 0;
+  border-bottom: 1px solid #ccc;
+}
+.essential .empty-message {
+  padding: 5px 10px;
+  text-align: center;
+}
+.hotels {
+  padding-left: 20px;
+  line-height: 16px;
+  background: url(/wp-content/themes/listings-child/images/icons/bed-icon.jpg) no-repeat;
+  background-clip: padding-box;
+}
+.destinations {
+  padding-left: 20px;
+  line-height: 16px;
+  background: url(/wp-content/themes/listings-child/images/icons/destination-pin-16x16.jpg) no-repeat;
+  background-clip: padding-box;
+}
+.attractions {
+  padding-left: 20px;
+  line-height: 16px;
+  background: url(/wp-content/themes/listings-child/images/icons/attraction-icon.jpg) no-repeat;
+  background-clip: padding-box;
+}
+.hotel-in {
+
+}
+#essential .tt-dropdown-menu {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* laterooms booking addin */
+
+
+
+#lateroomsbooking input.rounded {
+
+
+
+     margin-bottom: 20px;
+
+
+
+     margin-right: 3px;
+
+
+
+     margin-left: 3px;
+
+
+
+    border: 1px solid #ccc;
+
+	
+
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+
+
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+
+
+   */
+
+
+
+  -moz-border-radius: 5px;
+
+
+
+  -webkit-border-radius: 5px;
+
+
+
+  border-radius: 5px;
+
+
+
+  /* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+
+
+   * change the offsets, blur and color to suit your design.
+
+
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+
+
+  -webkit-box-shadow: 2px 2px 3px #33cccc;
+
+
+
+  box-shadow: 2px 2px 3px #33cccc;
+
+
+
+  /* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 20px;
+
+
+
+  /* with a big radius/font there needs to be padding left and right
+
+
+
+   * otherwise the text is too close to the radius.
+
+
+
+   * on a smaller radius/font it may not be necessary
+
+
+
+   */
+
+
+
+  padding: 4px 7px;
+
+
+
+  /* only needed for webkit browsers which show a rectangular outline;
+
+
+
+   * others do not do outline when radius used.
+
+
+
+   * android browser still displays a big outline
+
+
+
+   */
+
+
+
+  outline: 0;
+
+
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+
+
+
+   * top of the input. depending on the ratio of radius to height it will
+
+
+
+   * go all the way across the full width of the input and look really messy.
+
+
+
+   * ensure the radius is no more than half the full height of the input,
+
+
+
+   * and the following is set, and everything will render well in iOS.
+
+
+
+   */
+
+
+
+  -webkit-appearance: none;
+
+
+
+  width:120px;
+
+
+
+}
+
+
+
+#lateroomsbooking input.rounded:focus {
+
+
+
+  /* supported IE8+ and all other browsers tested.
+
+
+
+   * optional, but gives the input focues when selected.
+
+
+
+   * change to a color that suits your design.
+
+
+
+   */
+
+
+
+  border-color: #66cccc;
+
+
+
+  width:120px;
+
+
+
+}
+
+
+
+#lateroomsbooking select.rounded {
+
+
+
+     margin-bottom: 20px;
+
+
+
+     margin-right: 3px;
+
+
+
+     margin-left: 3px;
+
+
+
+    border: 1px solid #ccc;
+
+
+
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+
+
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+
+
+   */
+
+
+
+  -moz-border-radius: 5px;
+
+
+
+  -webkit-border-radius: 5px;
+
+
+
+  border-radius: 5px;
+
+
+
+  /* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+
+
+   * change the offsets, blur and color to suit your design.
+
+
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+
+
+  -webkit-box-shadow: 2px 2px 3px #33cccc;
+
+
+
+  box-shadow: 2px 2px 3px #33cccc;
+
+
+
+  /* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 20px;
+
+
+
+  /* with a big radius/font there needs to be padding left and right
+
+
+
+   * otherwise the text is too close to the radius.
+
+
+
+   * on a smaller radius/font it may not be necessary
+
+
+
+   */
+
+
+
+  padding: 4px 7px;
+
+
+
+  /* only needed for webkit browsers which show a rectangular outline;
+
+
+
+   * others do not do outline when radius used.
+
+
+
+   * android browser still displays a big outline
+
+
+
+   */
+
+
+
+  outline: 0;
+
+
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+
+
+
+   * top of the input. depending on the ratio of radius to height it will
+
+
+
+   * go all the way across the full width of the input and look really messy.
+
+
+
+   * ensure the radius is no more than half the full height of the input,
+
+
+
+   * and the following is set, and everything will render well in iOS.
+
+
+
+   */
+
+
+
+  -webkit-appearance: none;
+
+
+
+}
+
+
+
+#lateroomsbooking select.rounded:focus {
+
+
+
+  /* supported IE8+ and all other browsers tested.
+
+
+
+   * optional, but gives the input focues when selected.
+
+
+
+   * change to a color that suits your design.
+
+
+
+   */
+
+
+
+  border-color: #66cccc;
+
+
+
+}
+
+/* 
+
+WOO CUSTOM STYLESHEET
+
+---------------------
+
+
+
+Instructions:
+
+
+
+Add your custom styles here instead of style.css so it 
+
+is easier to update the theme. Simply copy an existing 
+
+style from style.css to this file, and modify it to 
+
+your liking.
+
+
+
+*/
+
+
+
+
+
+/*Menu drop shadow*/
+
+#megaMenu .wpmega-link-title {
+text-shadow: 0px 1px 0px #ccc;
+
+}
+
+
+
+/*Category Pictures Box Shadows*/
+
+.entry img, img.thumbnail {
+    border: 5px solid white;
+    
+    /*
+    background: #ccc;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+    */
+}
+
+/*Feature Box*/
+
+.loopedSlider img {
+
+background: #ccc;
+    border: 5px solid white;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+}
+
+/*More Info Text*/
+
+.more-listings span.more a {
+font-weight:normal;
+	font-family: roboto, arial, sans-serif;
+	font-style: normal;
+	margin-left: 5px;
+}
+
+#main {
+
+  width:800px;
+
+}
+
+#main.fullwidth {
+float: right;
+}
+
+
+
+a:link, a:visited {
+
+  color:#33cccc;
+
+  text-decoration:none;
+
+}
+
+
+
+/*Menu Font Colors*/
+
+.widget_text p {
+
+  	line-height:20px;
+
+	color: #FFFFFF;
+
+}
+
+
+
+.widget_text H3 {
+
+  	color: #FFFFFF;
+
+}
+
+
+
+.widget_text H4 {
+
+  	color: #FFFFFF;
+
+}
+
+
+
+/*Latest Trends Text*/
+
+.more-listings h2 {
+
+  font-family: Tahoma, serif;
+
+}
+
+
+
+
+
+/*More Trends Link*/
+
+#moreposts {
+
+background: #666666;
+
+text-align: center;
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+
+}
+
+
+
+#moreposts h3 {
+
+	color: #FFFFFF;
+
+}
+
+
+
+.post {
+
+  	margin-bottom:10px;
+
+	padding-bottom:0px;
+
+  	padding-top:0px;
+
+}
+
+
+
+.skin-default dl.slidedeck > dt {
+
+	font-size:16px;
+
+}
+
+
+
+#container { border:0px;
+
+}
+
+
+
+/*Contact Us Address Class*/
+
+
+
+.cid {width:20%; float:left;
+
+}
+
+
+
+.contactform {float:left; width: 40%;
+
+}
+
+
+
+.contactadd { width: 40%; float:right;            
+
+}
+
+
+
+.space { width: 100%;            
+
+}
+
+
+
+/*To make the map container in Destinations in Firefox work*/
+
+
+
+.mapp-container {
+
+    clear: both;
+
+}
+
+
+
+/*Change Font size for Mobiles in Posts*/
+
+@media screen and (-webkit-device-pixel-ratio: 1.5) {
+
+    /* CSS for high-density screens */
+
+   	.entry p {
+
+		line-height:50px;
+
+  		font-size:2.5em;
+
+}
+
+	.post h1 a {
+
+  		font-size:2.7em;
+
+		line-height:50px;
+
+}
+
+	.post h1 span.price  {
+
+  		font-size:1.2em;
+
+		line-height:50px;
+
+}
+
+	.post h1 span.price strong {
+
+  font-size:1.2em !important;
+
+  font-style:italic;
+
+}
+/*Single Hotel Mobile Designs*/
+#stickymenu li {
+	font-size:50px;
+}
+.entry P {
+	margin-top: 50px;
+}
+.entry p {
+max-width: 100%;
+}
+
+
+}
+
+
+
+@media screen and (-webkit-device-pixel-ratio: 0.75) {
+
+    /* CSS for low-density screens */
+
+   	.entry p {
+
+		line-height:50px;
+
+  		font-size:2.5em;
+
+}
+
+	.post h1 a {
+
+  		font-size:2.7em;
+
+		line-height:50px;
+
+}
+
+	.post h1 span.price  {
+
+  		font-size:1.2em;
+
+		line-height:50px;
+
+}
+
+	.post h1 span.price strong {
+
+  font-size:1.2em !important;
+
+  font-style:italic;
+
+}
+/*Single Hotel Mobile Designs*/
+#stickymenu li {
+	font-size:50px;
+}
+.entry P {
+	margin-top: 50px;
+}
+.entry p {
+max-width: 100%;
+}
+
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+   	.entry p {
+
+		line-height:50px;
+
+  		font-size:2.5em;
+
+}
+
+	.post h1 a {
+
+  		font-size:2.7em;
+
+		line-height:50px;
+
+}
+
+	.post h1 span.price {
+
+  		font-size:1.5em;
+
+
+
+}
+
+	.post h1 span.price strong {
+
+  font-size:1.2em !important;
+
+  font-style:italic;
+
+}
+/*Single Hotel Mobile Designs*/
+#stickymenu li {
+	font-size:50px;
+}
+.entry P {
+	margin-top: 50px;
+}
+.entry p {
+max-width: 100%;
+}
+
+}
+
+
+
+/*Shortcode Button
+element.style {
+
+    margin-bottom: 0;
+
+    margin-top: 15px;
+
+}
+*/
+
+/*Payment Confirmation Form
+
+
+
+Pale.png');
+
+	background-repeat: no-repeat;
+
+	background-position:right;  
+
+}
+
+.des:hover {
+
+	background-image:url('http://sandbox.woisme2.myzen.co.uk/Images/Tick-V-V-Pale.png');
+
+	background-repeat: no-repeat; 
+
+	background-position:right; 
+
+}
+
+.des:focus {
+
+	background-image:url('http://sandbox.woisme2.myzen.co.uk/Images/Tick-Black.png');
+
+	background-repeat: no-repeat;
+
+	background-position:right;  
+
+}
+
+.price {
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 1px;
+
+	color: #33CCCC;
+
+	background-color: #33CCCC;
+
+}
+
+.price2 {
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 16px;
+
+	color: #33CCCC;
+
+	padding-right: 10px;
+
+}
+
+.rmdes {
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	background-color: #33CCCC;
+
+	padding: 5px;
+
+	width: 150px;
+
+}
+
+.generaltext {
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 14px;
+
+}
+
+
+
+.rmdes2 {
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	background-color: #33CCCC;
+
+	padding: 5px;
+
+	width: 120px;
+
+}
+
+.pernight {
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
+	color: #33CCCC;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	padding-right: 190px;
+
+	padding-bottom: 5px;
+
+	width: 540px;
+
+}
+
+.restitle {
+
+	font-family: Tahoma, Geneva, sans-serif; 
+
+	font-color: #33CCCC;
+
+	margin-left: 5px;
+
+}
+
+.totalpr {
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif; 
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	background-color: #33CCCC;
+
+	padding: 5px;
+
+}
+
+.tble {
+
+	border-collapse:collapse;
+
+	float:left;
+
+}
+
+/*Rounded for general forms*/
+
+input.rounded {
+
+	margin-bottom: 10px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+	border: 1px solid #ccc;
+
+	/* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	border-radius: 5px;
+
+	/* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+	-webkit-box-shadow: 2px 2px 3px #33cccc;
+
+	box-shadow: 2px 2px 3px #33cccc;
+
+	/* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 15px;
+
+	/* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+  padding: 4px 7px;
+
+	/* only needed for webkit browsers which show a rectangular outline;
+
+   * others do not do outline when radius used.
+
+   * android browser still displays a big outline
+
+   */
+
+  outline: 0;
+
+	/* this is needed for iOS devices otherwise a shadow/line appears at the
+
+   * top of the input. depending on the ratio of radius to height it will
+
+   * go all the way across the full width of the input and look really messy.
+
+   * ensure the radius is no more than half the full height of the input,
+
+   * and the following is set, and everything will render well in iOS.
+
+   */
+
+  -webkit-appearance: none;
+
+	width:auto;
+
+
+
+}
+
+input.rounded:focus {
+
+	/* supported IE8+ and all other browsers tested.
+
+   * optional, but gives the input focues when selected.
+
+   * change to a color that suits your design.
+
+   */
+
+
+
+  border-color: #66cccc;
+
+	width:auto;
+
+}
+
+
+
+select.rounded {
+
+	margin-bottom: 20px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+    border: 1px solid #ccc;
+
+  
+
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+  -webkit-border-radius: 5px;
+
+  border-radius: 5px;
+
+
+
+  /* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+  -webkit-box-shadow: 2px 2px 3px #33cccc;
+
+  box-shadow: 2px 2px 3px #33cccc;
+
+  /* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 20px;
+
+
+
+  /* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+  padding: 4px 7px;
+
+
+
+  /* only needed for webkit browsers which show a rectangular outline;
+
+   * others do not do outline when radius used.
+
+   * android browser still displays a big outline
+
+   */
+
+  outline: 0;
+
+
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+
+   * top of the input. depending on the ratio of radius to height it will
+
+   * go all the way across the full width of the input and look really messy.
+
+   * ensure the radius is no more than half the full height of the input,
+
+   * and the following is set, and everything will render well in iOS.
+
+   */
+
+  -webkit-appearance: none;
+
+
+
+}
+
+select.rounded:focus {
+
+   
+
+
+
+  /* supported IE8+ and all other browsers tested.
+
+   * optional, but gives the input focues when selected.
+
+   * change to a color that suits your design.
+
+   */
+
+
+
+  border-color: #66cccc;
+
+}
+
+
+
+/*Rounded for the Date*/
+
+input.daterounded {
+
+	margin-bottom: 10px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+	border: 1px solid #ccc;
+
+	/* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	border-radius: 5px;
+
+	/* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+	-webkit-box-shadow: 2px 2px 3px #33cccc;
+
+	box-shadow: 2px 2px 3px #33cccc;
+
+	/* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 20px;
+
+	/* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+  padding: 4px 7px;
+
+	/* only needed for webkit browsers which show a rectangular outline;
+
+   * others do not do outline when radius used.
+
+   * android browser still displays a big outline
+
+   */
+
+  outline: 0;
+
+	/* this is needed for iOS devices otherwise a shadow/line appears at the
+
+   * top of the input. depending on the ratio of radius to height it will
+
+   * go all the way across the full width of the input and look really messy.
+
+   * ensure the radius is no more than half the full height of the input,
+
+   * and the following is set, and everything will render well in iOS.
+
+   */
+
+  -webkit-appearance: none;
+
+	width:100px;
+
+
+
+}
+
+input.daterounded:focus {
+
+	/* supported IE8+ and all other browsers tested.
+
+   * optional, but gives the input focues when selected.
+
+   * change to a color that suits your design.
+
+   */
+
+
+
+  border-color: #66cccc;
+
+	width:100px;
+
+}
+
+
+
+select.daterounded {
+
+	margin-bottom: 20px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+    border: 1px solid #ccc;
+
+  
+
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+  -webkit-border-radius: 5px;
+
+  border-radius: 5px;
+
+
+
+  /* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+  -webkit-box-shadow: 2px 2px 3px #33cccc;
+
+  box-shadow: 2px 2px 3px #33cccc;
+
+  /* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 20px;
+
+
+
+  /* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+  padding: 4px 7px;
+
+
+
+  /* only needed for webkit browsers which show a rectangular outline;
+
+   * others do not do outline when radius used.
+
+   * android browser still displays a big outline
+
+   */
+
+  outline: 0;
+
+
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+
+   * top of the input. depending on the ratio of radius to height it will
+
+   * go all the way across the full width of the input and look really messy.
+
+   * ensure the radius is no more than half the full height of the input,
+
+   * and the following is set, and everything will render well in iOS.
+
+   */
+
+  -webkit-appearance: none;
+
+
+
+}
+
+select.daterounded:focus {
+
+   
+
+
+
+  /* supported IE8+ and all other browsers tested.
+
+   * optional, but gives the input focues when selected.
+
+   * change to a color that suits your design.
+
+   */
+
+
+
+  border-color: #66cccc;
+
+}
+
+
+.submit {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   border-radius: 24px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   /*To Delete*/
+   /*vertical-align: middle;*/
+   }
+ .submit: {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+ .submit:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+	
+.dformdate {
+
+	width:80px;
+
+	padding-right:50px;
+
+	float:left;
+
+	margin-top:2px;	
+
+}
+
+.dformnights {
+
+	width:10px;
+
+	padding-right: 50px;
+
+	float:left;	
+
+}
+
+.dformadults {
+
+	width:60px;
+
+	float:left;	
+
+}
+
+.dformchildren {
+
+	width:10px;
+
+	float:left;	
+
+}
+
+.dsubmit {
+
+	width:100px;
+
+	margin-left:120px;
+
+	margin-top:20px;
+
+	float:left;
+
+	margin-right:100px;
+
+	margin-bottom:30px;	
+
+}
+
+label {
+
+	margin-left:3px;
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
+	color: #33CCCC;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+}
+
+.roomty
+
+	{
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
+	color: #33CCCC;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	padding-right: 310px;
+
+	padding-bottom: 5px;
+
+}
+
+.tot
+
+	{
+
+	font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
+	color: #33CCCC;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	padding-left: 10px;
+
+	padding-bottom: 5px;	
+
+}
+
+
+input.roundedpage2 {
+
+	margin-bottom: 10px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+	border: 1px solid #ccc;
+
+	/* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	border-radius: 5px;
+
+	/* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+	-webkit-box-shadow: 2px 2px 3px #33cccc;
+
+	box-shadow: 2px 2px 3px #33cccc;
+
+	/* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 16px;
+
+	/* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+  padding: 4px 7px;
+
+	/* only needed for webkit browsers which show a rectangular outline;
+
+   * others do not do outline when radius used.
+
+   * android browser still displays a big outline
+
+   */
+
+  outline: 0;
+
+	/* this is needed for iOS devices otherwise a shadow/line appears at the
+
+   * top of the input. depending on the ratio of radius to height it will
+
+   * go all the way across the full width of the input and look really messy.
+
+   * ensure the radius is no more than half the full height of the input,
+
+   * and the following is set, and everything will render well in iOS.
+
+   */
+
+  -webkit-appearance: none;
+
+	width:auto;
+
+
+
+}
+
+input.roundedpage2:focus {
+
+	/* supported IE8+ and all other browsers tested.
+
+   * optional, but gives the input focues when selected.
+
+   * change to a color that suits your design.
+
+   */
+
+
+
+  border-color: #66cccc;
+
+	width:auto;
+
+}
+
+
+
+select.roundedpage2 {
+
+	margin-bottom: 10px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+	border: 1px solid #ccc;
+
+	/* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	border-radius: 5px;
+
+	/* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+	-webkit-box-shadow: 2px 2px 3px #33cccc;
+
+	box-shadow: 2px 2px 3px #33cccc;
+
+	/* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 16px;
+
+}
+
+  /* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+/*Style for First Form on Laterooms Booking*/
+
+
+
+.des {
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 12px;
+
+	padding: 10px;
+
+	padding-right:70px;
+
+	cursor:pointer;
+
+}
+
+.rmdes {
+
+	font-family: Roboto, Arial, sans-serif;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	background-color: #33CCCC;
+
+	padding: 5px;
+
+	width: 150px;
+
+	height: 20px;
+
+}
+
+.coldes {
+
+    height: 100px;
+
+    width: 100px;
+
+    float: left;
+
+    font-color: #FFFFFF;
+
+  }
+
+  .coldes-max {
+
+    width: 840px;
+
+  }
+
+input.rounded:focus {
+
+	/* supported IE8+ and all other browsers tested.
+
+   * optional, but gives the input focues when selected.
+
+   * change to a color that suits your design.
+
+   */
+
+
+
+  border-color: #66cccc;
+
+	width:auto;
+
+}
+
+
+
+select.rounded {
+
+	margin-bottom: 20px;
+
+	margin-right: 3px;
+
+	margin-left: 3px;
+
+    border: 1px solid #ccc;
+
+  
+
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+
+   */
+
+  -moz-border-radius: 5px;
+
+  -webkit-border-radius: 5px;
+
+  border-radius: 5px;
+
+
+
+  /* Chrome, FF 4.0 support box-shadow without vendor prefix.
+
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+
+   * change the offsets, blur and color to suit your design.
+
+   */
+
+
+
+  -moz-box-shadow: 2px 2px 3px #33cccc;
+
+  -webkit-box-shadow: 2px 2px 3px #33cccc;
+
+  box-shadow: 2px 2px 3px #33cccc;
+
+  /* using a bigger font for demo purposes so the box isn't too small */
+
+
+
+  font-size: 20px;
+
+
+
+  /* with a big radius/font there needs to be padding left and right
+
+   * otherwise the text is too close to the radius.
+
+   * on a smaller radius/font it may not be necessary
+
+   */
+
+
+
+  padding: 4px 7px;
+
+
+
+  /* only needed for webkit browsers which show a rectangular outline;
+
+   * others do not do outline when radius used.
+
+   * android browser still displays a big outline
+
+   */
+
+  outline: 0;
+
+
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+
+   * top of the input. depending on the ratio of radius to height it will
+
+   * go all the way across the full width of the input and look really messy.
+
+   * ensure the radius is no more than half the full height of the input,
+
+   * and the following is set, and everything will render well in iOS.
+
+   */
+
+  -webkit-appearance: none;
+
+
+
+}
+
+
+
+/*Address in single hotel*/
+
+
+body .shortcode-tabs ul.tab_titles li.nav-tab a {
+  color: #777777;
+  display: block;
+  float: inherit;
+  font: 11px/18px sans-serif;
+  height: 100%;
+  /*Margin in Tab on Home Page was too large
+  margin: 24px;
+  */
+  /*Padding Around Text in Tab
+  padding: 32px !important;
+  */
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   body .shortcode-tabs.boxed ul.tab_titles li {
+  
+  border-right: 1px solid #EBEBEB;
+  border-top: 1px solid #EBEBEB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+}
+
+.ui-widget-content {
+border:0px !important;
+}
+
+H4
+{
+	font-size: 1em;
+	font-color: #ffffff;
+}
+.cycle-slideshow {
+    margin: 10px auto;
+    max-width: 980px;
+    min-width: 200px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+.cycle-slideshow img {
+    display: block;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.cycle-slideshow img:first-child {
+    position: static;
+    z-index: 100;
+}
+.cycle-pager {
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+    z-index: 500;
+}
+.cycle-pager span {
+    color: #DDDDDD;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-size: 50px;
+    height: 20px;
+    width: 16px;
+}
+.cycle-pager span.cycle-pager-active {
+    color: #D69746;
+}
+.cycle-pager > * {
+    cursor: pointer;
+}
+.cycle-caption {
+    bottom: 15px;
+    color: white;
+    position: absolute;
+    right: 15px;
+    z-index: 700;
+}
+.cycle-overlay {
+    background: none repeat scroll 0 0 black;
+    bottom: 0;
+    color: white;
+    font-family: roboto, helvetica, arial, sans-serif;
+    opacity: 1;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 600;
+}
+.cycle-prev, .cycle-next {
+    cursor: pointer;
+    position: absolute !important;
+    top:242px;    font-size: 70px;
+    z-index: 800;
+    display:none;
+}
+.cycle-prev {
+    left: 6px;
+    display:none;
+}
+.cycle-next {
+    right: 6px;
+}
+
+.cycle-overlay {
+    padding: 4px;
+}
+.cycle-caption {
+    bottom: 4px;
+    right: 4px;
+}
+#stickymenu li a {
+    background: #ACACAC;
+    color: white;
+    padding:10px 40px 10px 10px;
+    opacity:0.9;
+    margin-left:5px;
+}
+#stickymenu li a:hover {
+    background: #999999;
+}
+
+#stickymenu {
+	z-index:100;
+}
+
+#stickymenu li {
+  display: inline;
+  list-style: none
+}
+
+#stickyalias {
+    display: none;
+    height: 10px;
+}
+
+#content-wrpe {
+    margin-top: 30px;
+}
+
+ul#menu {
+height: 5px;
+padding: 0px;
+font-size:24px;
+text-align:center;
+}
+
+/*Change the Left column into the dominant one*/
+#sidebar-single {
+width: 0px;
+padding-bottom: 15px;
+visibility:hidden;
+}
+
+#main-single {
+width: 980px;
+}
+
+/*Address Under heading*/
+.hoteladd {
+	margin-left:30px;
+	font-size:1.2em;
+	color:#FFFFFF;
+}
+
+/*CSS For the Royal York Dummy Listing*/
+
+.post h1 {
+	background: none;
+	font-size: 30px;
+	color: #FFF;
+	letter-spacing: -2px;
+	display: block;
+	line-height:0em;
+	padding-bottom:0px;
+	margin:20px;
+	z-index:100;
+	opacity:1;
+}
+
+.post h1 a:link, a:visited {
+  color:#33cccc;
+}
+
+.post h2 {
+	background:none;
+	font-size: 45px;
+	color: #33CCCC;
+}
+
+.entry, .entry p {
+	/*
+	line-height: 26px;
+	margin-left: 50px;
+	margin-right: 50px;	
+	*/	
+}
+
+#content-wrpe {
+	line-height: 26px;
+	/*
+	margin-left: 50px;
+	margin-right: -50px;	
+	*/
+}
+
+#titleblock {
+position: absolute;
+left: 0px;
+top: 400px;
+z-index: 100;
+background: rgba(180, 180, 180, 0.5);
+height: 100px;
+width: 980px;
+}
+
+.post h3 {
+	font-size: 30px !important;
+	line-height: 1.0em !important;
+	color: #f00 !important;
+	margin: 20px 0;
+	display: block;
+	letter-spacing: -1px;
+	font-family: ff-din-web-condensed,helvetica,sans-serif;
+	margin-top:50px;
+	text-align: center;
+}
+
+.excepertbit P {
+	line-height: 26px;
+	margin-left:30px;
+	z-index:100;
+	color: #FFF;
+	width:530px;
+	font-size:16px;
+}
+
+#telnumber {
+	position: absolute;
+	right:20px;
+	top: 20px;
+	font-size: 30px;
+}
+
+#telnumber a {
+	font-weight:500;
+}
+
+#teltop {
+font-size: 2em;
+margin-top: 14px;
+float: right;
+margin-right: 20px;
+}
+
+#contactlink {
+	position: absolute;
+	left: 690px;
+	top: 60px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.chkavail {
+	position: absolute;
+	right: 20px;
+	top: -380px;
+
+}
+/*
+A:link, A:visited {
+	font-weight: bold;
+}
+*/
+body {
+background-color: #FFFFFF;
+}
+
+tr {
+	border-bottom: navy solid thin;
+}
+
+
+/*Wordpress Slider Gallery*/
+
+.slideshow-window {
+background-color: #FFFFFF;
+border: 0px solid #FFFFFF;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+-khtml-border-radius: 0px;
+margin-bottom: 0px;
+}
+
+/*Menu Top Right*/
+
+.nav LI UL LI A {
+padding: 1px 10px;
+width: 180px;
+color: #33CCCC;
+font-size: 1em;
+}
+
+.sf-with-ul {
+	font-size:1.7em;
+	background: none;
+	padding-top:5px;
+}
+
+.fl {
+	margin-top: 10px;
+}
+
+/*Mobile Version of Site*/
+
+@media only screen and (max-device-width: 580px) {
+/*Search Box*/	
+#Search {
+	width:100%;
+	height:80%;
+}
+	
+#MiddleTitle {
+	font-size:200%;
+}
+
+INPUT[type=text] {
+	font-size:180%;
+}
+
+#Search INPUT.button {
+	width:20%;
+	font-size:2em;
+}
+
+/*Cotanct Us Box*/
+#ContactUs {
+	width:48%;
+	height:100%
+}
+
+/*Signup Box*/
+#Newsletter {
+	width:48%;
+}
+
+#mc_embed_signup .mc-field-group input {
+	font-size:2em;
+}
+
+#mc_embed_signup .button {
+	font-size:2em;
+}
+}
+
+/*Anchor Under Menu*/
+.post H2 {
+padding-top: 50px;
+}
+
+
+/*Fluid Header Code*/
+
+.kwicks-vertical {
+    height: 400px;
+}
+.kwicks-vertical > li {
+    height: 223px;
+    margin-top: 5px;
+}
+.kwicks-horizontal {
+    width: 980px;
+    height: 100%;
+}
+.kwicks-horizontal > li {
+    height: 100%;
+    width: 323px;
+    float: left;
+    margin-left: 5px;
+    background-color: #aaa;
+    text-align: center;
+}
+.kwicks-expanded {
+    opacity:1;
+    transition: opacity 1s ease 0s;
+    -webkit-transition: opacity 1s ease 0s;
+}
+.kwicks-collapsed {
+    opacity:.5;
+    transition: opacity 1s ease 0s;
+    -webkit-transition: opacity 1s ease 0s;
+}
+
+.kwicks h3 {
+    opacity:0;
+    transition: opacity 2s ease 0s;
+    -webkit-transition: opacity 2s ease 0s;
+    font-size: 18px;
+    padding: 0 4px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    text-align: left;
+}
+.kwicks-expanded > h3 {
+    opacity:1;
+    transition: opacity 2s ease 0s;
+    -webkit-transition: opacity 2s ease 0s;
+}
+
+.kwicks h2 {
+    opacity:0.8;
+    transition: font-size 1s ease 0s;
+    transition: opacity 1s ease 0s;
+    -webkit-transition: font-size 1s ease 0s;
+    -webkit-transition: opacity 1s ease 0s;
+    font-size: 24px;
+    padding: 0 4px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+.kwicks-expanded > h2 {
+    opacity:1;
+    font-size:30px;
+    transition: opacity 3s ease 0s;
+    transition: font-size 3s ease 0s;
+    -webkit-transition: opacity 3s ease 0s;
+    -webkit-transition: font-size 1s ease 0s;
+}
+.kwicks #book h2 {
+    margin-top:30px;
+    margin-left:15px;
+}
+.kwicks #book h3 {
+    margin-top:60px;
+    margin-left:35px;
+}
+
+.kwicks #special h2 {
+    margin-top:50px;
+    margin-left:180px;
+}
+
+.kwicks #special h3 {
+    margin-top:60px;
+    margin-left:40px;
+}
+
+.kwicks #scottish h2 {
+    margin-top:190px;
+    margin-left:20px;
+}
+
+
+.kwicks #beachside h2 {
+    margin-top:30px;
+    margin-left:20px;
+}
+
+.kwicks #newforest h2 {
+    margin-top:130px;
+    margin-left:20px;
+}
+
+.kwicks #magazine h2 {
+    margin-top:30px;
+    margin-left:20px;
+}
+
+.kwicks #magazine h3 {
+    margin-top:60px;
+    margin-left:40px;
+}
+
+
+.kwicks .ticker {
+    margin-top: -32px;
+    padding: 10px;
+    text-align: left;
+    width: 302px;
+    transition: margin-top 0s ease 0s;
+    -webkit-transition: margin-top 0s ease 0s;
+}
+.kwicks-expanded > .ticker {
+    margin-top: -2000px;
+    transition: margin-top 120s ease 0s;
+    -webkit-transition: margin-top 120s ease 0s;
+}
+.kwicks-expanded > .ticker p {
+    background:#ddd;
+    opacity:.8;
+    width:280px;
+    padding:3px;
+}
+.kwicks-collapsed > img, .kwicks img {
+    margin:0 -60%;
+    transition: margin .5s ease 0s;
+    -webkit-transition: margin .5s ease 0s;
+}
+.kwicks-expanded > img {
+    margin:0;
+    transition: margin .5s ease 0s;
+    -webkit-transition: margin .5s ease 0s;
+}
+.kwicks-expanded > a > img {
+    margin:0;
+    transition: margin .5s ease 0s;
+    -webkit-transition: margin .5s ease 0s;
+}
+.kwicks-collapsed {
+}
+.kwicks a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #066;
+}
+
+.kwicks {
+	display: block;
+	list-style-type: none;
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+    min-height: 450px;
+}
+.kwicks > * {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.kwicks.kwicks-processed > * {
+	margin: 0;
+	position: absolute;
+}
+.kwicks-horizontal > * {
+	float: left;
+}
+.kwicks-horizontal > :first-child {
+	margin-left: 0;
+}
+.kwicks-vertical > :first-child {
+	margin-top: 0;
+}
+/*Post Changes*/
+
+/*Author Text Under Headline*/
+.post-meta {
+display:none;
+}
+
+.post P.tags {
+display: none;
+}
+
+/*
+#respond {
+display: none;
+}
+	
+*/
+/*	
+#comments {
+display: none;
+}
+*/
+
+/*Archive Description*/
+.arcive_description p {
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	margin-left: 20px;
+	font-weight:300;
+	line-height: 2;
+	margin-right:20px;
+}
+.arcive_description h2 {
+	text-align: center;
+	color: #f00;
+}
+
+/*Style of the Archive Page*/
+
+#archivecss .post {
+	background: #ffffff;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	max-width: 180px;
+	float: left;
+	margin-right:20px;
+	margin-top:15px;
+	height:310px;
+}
+
+#archivecss .post .title A:link, .post .title A:visited
+{
+	font-size: 0.8em;
+	color: #4a4a4a;
+	font-family: Roboto, sans-serif;
+	font-weight:300;
+}
+
+#archivecss .post .title {
+	padding-top:10px;
+}
+
+#archivecss .woo-pagination {
+	border:none;
+	background:none;
+}
+
+#archivecss img.thumbnail {
+border: none;
+max-width: 180px;
+}
+
+#archivecss .post h2 {
+	padding:0px;
+	margin-bottom:5px;
+}
+
+#archivecss .entry P {
+	font-size:14px;
+}
+
+#archivecss .post {
+	margin-bottom:0px;
+}
+
+/*Style of the taxonomycss*/
+/*
+#taxonomycss .more-listings .block {
+	margin: 20px auto auto 22px;
+	min-width: 100px;
+	min-height: 30px;
+	box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+	-moz-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+	-webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+	height:380px;
+}
+
+#taxonomycss .h2 a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+.more-listings img{
+    min-width: 100px;
+    min-height: 30px;
+    margin: auto;
+    background: #ccc;
+}
+*/
+
+#taxonomycss .more-listings {
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+
+#taxonomycss .fullwidth {
+width: 800px;
+float: right;
+}
+
+
+#taxonomycss .more-listings .block {
+	background: #ffffff;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	max-width: 180px;
+	float: left;
+	margin-right:10px;
+	margin-top:15px;
+	height:230px;
+}
+
+#taxonomycss .more-listings img{
+    border: none;
+	max-width: 180px;
+	height:auto;
+}
+	
+#taxonomycss .more-listings H2 A:link
+{
+	font-size: 0.8em;
+	color: #4a4a4a;
+	font-family: Roboto, sans-serif;
+	font-weight:300;
+	margin-left:5px;
+	background-image: none;
+}
+
+#taxonomycss p {
+	font-size: 14px;
+	font-family: Roboto, sans-serif;
+	font-weight:300;
+	margin-left:5px;
+}
+
+#sidebar {
+float: left;
+width: 150px;
+}
+
+.widget UL LI {
+padding: 0px;
+}
+
+
+/*Glossary*/
+.page .post .title {
+	display: none;
+}
+
+#gti_letterindex ul li a, #gti_letterindexbottom ul li a {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+}
+
+/*Filter*/
+.page h3 {
+	font-size: 16px !important;
+	font-weight:300;
+	align-content:left;
+}
+
+/*Cards on the Sort*/
+
+.acn-author {
+display: none;
+}
+
+div.acn-wrap {
+font-family:Roboto, sans-serif;
+font-weight:300;
+}
+
+div.acn-wrap {
+background-color: #fff !important;
+}
+
+div.acn-toggle {
+display:none;
+}
+
+div.acn-wrap .acn-content .acn-media img {
+width: 100%;
+}
+
+acn-date, .acn-ecom del {
+display: none;
+}
+
+div.acn-wrap div.acn-navi-wrap ul li a {
+font-family: Roboto, sans-serif;
+font-weight: 300;
+}
+
+/*Mega Menu*/
+#megaMenu {
+margin-bottom: 0em;
+}
+
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu-1 > li.menu-item {
+
+margin-top: 5px;
+margin-bottom: 0px;
+margin-left: 9px;
+}
+
+#megaMenu.wpmega-preset-flat-aqua-bar-dark ul.megaMenu li.menu-item span {
+	font-family: Roboto, sans-serif;
+	font-weight: 300
+}
+
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-title {
+	clear:both;
+	padding-left:0px !important;
+	text-align:center;
+	padding-top:5px;
+}
+
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul li.menu-item.ss-nav-menu-item-depth-1 {
+/* padding: 0px 0px !important; */
+}
+
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul li.menu-item.ss-nav-menu-item-depth-1 {
+padding: 0px 0px;
+}
+
+
+
+
+/*Jetset Gallery Controls*/
+.slideshow-controls {
+bottom: -50px;
+}
+
+/*Search Results*/
+.solr_results .solr_image img {
+max-width: 245px;
+}
+
+.shortcode-tabs {
+/*background: #f0f0f0;
+background: rgba(0,0,0,.05);
+clear: both;
+height: 320px;
+display: block;
+margin-bottom: 0px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+*/
+padding: 0px;
+}
+
+.solr_results .solr_image {
+max-height: 410px;
+}
+
+
+.ui-widget {
+font-family: Roboto, sans-serif;
+font-size: 1.1em;
+font-weight: 300;
+}
+
+#archivecss .post {
+height: 350px;
+}
+
+.shortcode-tabs .tab {
+padding: 0px;
+height: 300px;
+}
+
+body li.post .shortcode-tabs ul.tab_titles li.nav-tab a {
+font-family: Roboto, sans-serif;
+}
+
+l.tab_titles li.nav-tab a {
+width: 69px;
+height: 19px;
+padding: 1px 0px 0px 0px;
+}
+
+body li.post .shortcode-tabs ul.tab_titles li.nav-tab a {
+  width: 68px;
+}
+
+        
+#archivecss .post {
+min-width: 243px;
+margin-right: 5px;
+height:350px;
+}
+
+#archivess:hover {
+	background-color:#FFFFFF;
+}
+
+.card {
+	margin-left:0px;
+	max-width:282px;
+	min-height:300px;
+}
+
+
+#roomcards {
+    max-width: 490px;
+    float: right;
+    clear: both;
+}
+
+.find-rooms .topbox img.room {
+    float: left;
+    clear: both;
+}
+
+/*Styling of Menu Search*/
+
+.solr * ul#menu {
+	padding:20px;
+	margin-left:30px;
+	font-size:20px
+}
+
+.solr * ul#menu A:link, A:visited {
+    font-weight: 300;
+}
+
+.solr_results li {
+	border-bottom: 0px !important;
+	font-family: Roboto, sans-serif !important;
+}
+
+div.solr_search input {
+    font-weight: 300;
+}
+
+INPUT.button {
+	padding: 4px 13px 4px;
+}
+.stars .star {
+	font-family:Roboto, sans-serif;
+}
+
+/*Search Autocomplete*/
+.tt-suggestion {
+	background-color:#ffffff;
+	margin-right:20px;
+	font-weight:300;
+	font-family:Roboto;
+}
+
+/*Mega Menu Styling*/
+#megaMenu ul.megaMenu > li.menu-item > .wpmega-nonlink {
+width: 290px;
+}
+
+/*Slideshow Border*/
+.slideshow-window {
+border-color :#FFF;
+}
+
+
+/*Map Div*/
+.map {
+  width: 960px;
+  margin: 0 auto;
+}
