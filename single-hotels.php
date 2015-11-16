@@ -92,7 +92,21 @@ if (!isset($_GET['card']) && !isset($_GET['iframe']) && !isset($_GET['mobi'])) {
 ?>
 </div> 
 <div id="teloffer">
-  <a href="tel:+448001804700">UK Freephone 0800 180 4700</a>
+   <laterooms-datepicker hotel-id="<?php
+    echo get_post_meta($post->ID, 'hotelid', true);
+?>" style="  
+ 		display: block;
+    width: 495px;
+    font-size: 16px;">
+      <a style="text-decoration:none;color:#222" href="tel:+448001804700">
+        <paper-material class="layout middle" style="max-width: 300px;">
+          <div style="margin:40px 40px;text-align:center;padding: 20px">
+            <p>Call for Best Rates us</p>
+            <p>0800 180 4700</p>
+          </div>
+        </paper-material>
+      </a>
+    </laterooms-datepicker>
 </div>
 
  
@@ -110,18 +124,7 @@ if (!isset($_GET['card']) && !isset($_GET['iframe']) && !isset($_GET['mobi'])) {
     print "<!-- bookingservices  " . get_post_meta($post->ID, 'bookingservices', true) . " -->";
 ?> 
 
-    <laterooms-datepicker hotel-id="<?php
-    echo get_post_meta($post->ID, 'hotelid', true);
-?>" style="position: absolute;display: block;top: 100px;background: #fff">
-      <a style="text-decoration:none;color:#222" href="tel:+448001804700">
-        <paper-material class="layout middle" style="max-width: 300px;">
-          <div style="margin:40px 40px;text-align:center;padding: 20px">
-            <p>Call for Best Rates us</p>
-            <p>0800 180 4700</p>
-          </div>
-        </paper-material>
-      </a>
-    </laterooms-datepicker>
+   
 
 <?php } ?>
 

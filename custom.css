@@ -2026,7 +2026,7 @@ border:0 !important;
 H4
 {
 	font-size: 1em;
-	font-color: #ffffff;
+	color: #ffffff;
 }
 .cycle-slideshow {
     margin: auto;
@@ -2212,7 +2212,6 @@ width: 980px;
 	left: 0;
 	top: 400px;
 	z-index: 100;
-	opacity: 0.8;
 	height: 100px;
 	width: 980px;
 	background-color: #222;
