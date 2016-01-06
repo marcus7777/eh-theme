@@ -15,7 +15,7 @@
         <script src="/elements/search.js"></script>
         <link rel="import" href="/elements/elements.html">
         <link rel="import" href="/bower_components/map-eh/map-eh.html">
-        <link rel="import" href="/bower_components/laterooms-ratepicker/laterooms-datepicker.html">
+        <link rel="import" href="/bower_components/rate-lister/rate-lister.html">
         <link rel="stylesheet" href="../../../assets/css/main.css">
 
         <!-- jQuery UI Datepicker - Animations   

@@ -47,6 +47,18 @@ if (!isset($_GET['card']) && !isset($_GET['iframe']) && !isset($_GET['mobi'])) {
   } // End If Statement
 ?> <div id="content" class="col-full"> 
   <div id="gallerystuff">
+			<div id="bookblock" style="background-color: #32608C; width: 960px; padding: 10px; color: #FFF;">
+		          <rate-lister late-url="http://essentialhotels.laterooms.com/en/p" late-hotel-id="<?php
+    echo get_post_meta($post->ID, 'hotelid', true);
+?>" ean-hotel-id="<?php
+    echo get_post_meta($post->ID, 'expediahotelid', true);
+?>" style="display: block;width: 600px;font-size: 16px;margin-left: auto;margin-right: auto;margin-top: 20px">
+      			    <a style="text-decoration:none;color:#222" href="tel:+448001804700">
+            		      <p>Call For Best Rates</p>
+            		      <p>0800 180 4700</p>
+      			    </a>
+    			  </rate-lister>	
+			</div>
   <?php include('includes/galleryheader.php'); ?>
 <?php
 
@@ -92,21 +104,7 @@ if (!isset($_GET['card']) && !isset($_GET['iframe']) && !isset($_GET['mobi'])) {
 ?>
 </div> 
 <div id="teloffer">
-   <laterooms-datepicker hotel-id="<?php
-    echo get_post_meta($post->ID, 'hotelid', true);
-?>" style="  
- 		display: block;
-    width: 495px;
-    font-size: 16px;">
-      <a style="text-decoration:none;color:#222" href="tel:+448001804700">
-        <paper-material class="layout middle" style="max-width: 300px;">
-          <div style="margin:40px 40px;text-align:center;padding: 20px">
-            <p>Call for Best Rates us</p>
-            <p>0800 180 4700</p>
-          </div>
-        </paper-material>
-      </a>
-    </laterooms-datepicker>
+  
 </div>
 
  
@@ -351,6 +349,7 @@ endif;
         $similar_results = '';
       } // End If Statement
 ?> <div class="full"> 
+
   <div id="gallerystuff">
     <?php include('includes/galleryheader.php'); ?>
   </div>
